@@ -8,7 +8,7 @@ import FormatHtml from 'components/utils/FormatHtml';
 
 import { SectionTitle } from 'helpers/definitions';
 
-interface ProjectsPage {
+interface ProjectsPages {
   node: {
     id: string;
     html: React.ReactNode;
@@ -18,7 +18,7 @@ interface ProjectsPage {
   };
 }
 
-const ProjectsPage: React.FC = () => {
+const ProjectsPages: React.FC = () => {
   const { markdownRemark, allMarkdownRemark } = useStaticQuery(graphql`
     query {
       markdownRemark(frontmatter: { category: { eq: "projects" } }) {
@@ -70,4 +70,4 @@ const ProjectsPage: React.FC = () => {
   );
 };
 
-export default ProjectsPage;
+export default ProjectsPages;
