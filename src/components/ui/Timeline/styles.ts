@@ -14,7 +14,7 @@ export const Details = styled.div`
 `;
 
 export const Content = styled.div`
-  ${tw`w-full sm:w-2/3 mt-4 sm:mt-0`};
+  ${tw`w-full sm:w-2/3 mt-4 sm:-mt-4 sm:mb-8`};
 `;
 
 export const Title = styled.div`
@@ -33,5 +33,5 @@ export const Date = styled.div`
 export const Point = styled.span`
   ${tw`w-3 h-3 border border-indigo-200 bg-indigo-100 rounded-full absolute`};
   left: -6px;
-  top: 20px;
+  top: 35px;
 `;

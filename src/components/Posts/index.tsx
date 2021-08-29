@@ -22,11 +22,6 @@ interface Post {
       description: string;
       date: string;
       tags: string[];
-      cover: {
-        childImageSharp: {
-          fluid: ImageSharpFluid;
-        };
-      };
     };
   };
 }
@@ -56,13 +51,6 @@ const Posts: React.FC = () => {
               description
               date(formatString: "MMM DD, YYYY")
               tags
-              cover {
-                childImageSharp {
-                  fluid(maxWidth: 800) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
             }
           }
         }
@@ -81,7 +69,7 @@ const Posts: React.FC = () => {
           const {
             id,
             fields: { slug },
-            frontmatter: { title, cover, description, date, tags }
+            frontmatter: { title, description, date, tags }
           } = item.node;
 
           return (
@@ -89,9 +77,6 @@ const Posts: React.FC = () => {
               <Link to={slug}>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 1 }}>
                   <Styled.Card>
-                    <Styled.Image>
-                      <Img fluid={cover.childImageSharp.fluid} alt={title} />
-                    </Styled.Image>
                     <Styled.Content>
                       <Styled.Date>{date}</Styled.Date>
                       <Styled.Title>{title}</Styled.Title>

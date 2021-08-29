@@ -14,7 +14,7 @@ const Logo: React.FC = () => {
           title
         }
       }
-      placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "fa.png" }) {
         childImageSharp {
           fluid(maxWidth: 80) {
             ...GatsbyImageSharpFluid
@@ -30,7 +30,7 @@ const Logo: React.FC = () => {
   return (
     <Styled.Logo to="/">
       <Styled.Image>
-        <Img fluid={logoImage} alt={logoTitle} />
+       <Img fluid={logoImage} alt={logoTitle} />
       </Styled.Image>
       <Styled.Text>{logoTitle}</Styled.Text>
     </Styled.Logo>

@@ -6,7 +6,10 @@ import Banner from 'components/ui/Banner';
 import { SectionTitle } from 'helpers/definitions';
 
 interface SectionHeroBanner extends SectionTitle {
-  content: string;
+  content0: string;
+  content1: string;
+  content2: string;
+  content3: string;
   linkTo: string;
   linkText: string;
 }
@@ -18,7 +21,10 @@ const HeroBanner: React.FC = () => {
         frontmatter {
           title
           subtitle
-          content
+          content0
+          content1
+          content2
+          content3
           linkTo
           linkText
         }
@@ -32,7 +38,10 @@ const HeroBanner: React.FC = () => {
     <Banner
       title={heroBanner.title}
       subtitle={heroBanner.subtitle}
-      content={heroBanner.content}
+      content0={heroBanner.content0}
+      content1={heroBanner.content1}
+      content2={heroBanner.content2}
+      content3={heroBanner.content3}
       linkTo={heroBanner.linkTo}
       linkText={heroBanner.linkText}
     />

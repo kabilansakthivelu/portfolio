@@ -17,10 +17,6 @@ export const Content = styled.div`
   ${tw`p-4 text-indigo-900`};
 `;
 
-export const Image = styled.figure`
-  ${tw`w-full`};
-`;
-
 export const Title = styled.h3`
   ${tw`font-semibold mb-4`};
 `;

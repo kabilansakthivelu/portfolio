@@ -9,12 +9,12 @@ import {
   faBullhorn,
   faMapMarkerAlt,
   faPhone,
-  faPaperPlane
+  faEnvelope
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon, FontAwesomeIconProps } from '@fortawesome/react-fontawesome';
 
 /* add any additional icon to the library */
-library.add(fab, faLaptopCode, faDrawPolygon, faEdit, faEdit, faBullhorn, faMapMarkerAlt, faPhone, faPaperPlane);
+library.add(fab, faLaptopCode, faDrawPolygon, faEdit, faEdit, faBullhorn, faMapMarkerAlt, faPhone, faEnvelope);
 
 export type IconProps = FontAwesomeIconProps['icon'];
 
