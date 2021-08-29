@@ -8,7 +8,7 @@ import FormatHtml from 'components/utils/FormatHtml';
 
 import { SectionTitle } from 'helpers/definitions';
 
-interface Projects {
+interface ProjectsPage {
   node: {
     id: string;
     html: React.ReactNode;
@@ -18,7 +18,7 @@ interface Projects {
   };
 }
 
-const Projects: React.FC = () => {
+const ProjectsPage: React.FC = () => {
   const { markdownRemark, allMarkdownRemark } = useStaticQuery(graphql`
     query {
       markdownRemark(frontmatter: { category: { eq: "projects" } }) {
@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
     <Container section>
       <TitleSection title={sectionTitle.title} subtitle={sectionTitle.subtitle} />
 
-      {experiences.map((item) => {
+      {projects.map((item) => {
         const {
           id,
           html,
@@ -70,4 +70,4 @@ const Projects: React.FC = () => {
   );
 };
 
-export default Projects;
+export default ProjectsPage;

@@ -4,7 +4,7 @@ import Layout from 'components/Layout';
 import SEO from 'components/SEO';
 import Projects from 'components/projects';
 
-const ResumePage: React.FC = () => (
+const ProjectsPage: React.FC = () => (
   <Layout>
     <SEO title="Projects" />
     <Projects />
@@ -12,4 +12,4 @@ const ResumePage: React.FC = () => (
   </Layout>
 );
 
-export default ResumePage;
+export default ProjectsPage;
