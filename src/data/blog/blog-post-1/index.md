@@ -8,6 +8,20 @@ published: true
 ---
 A CSS framework which eliminates the need of CSS in our code by implementing all the styles through utility classes in markup.
 
+<br/>
+<img src="image_1.png">
+<br/>
+
+Here in the utility classes,
+
+<br/>
+<li>mt => margin-top</li>
+<li>py => padding y-axis (both top and bottom)</li>
+<li>text-blue => color:blue;</li>
+<li>flex => display:flex;</li>
+<li>rounded => border-radius: 0.25rem;</li>
+<br/>
+
 If we don't want to mess up our markup, we can extend all the utility classes through a single CSS sheet in src folder by the help of directives.
 
 <strong>Example :</strong> Consider an h1 element with a class name "testHeader"
