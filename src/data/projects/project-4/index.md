@@ -1,9 +1,9 @@
 ---
 category: 'project'
-projectTitle: 'Tasks tracker'
+projectTitle: 'Chat App'
 ---
 
-A To-Do Tasks Tracker which stores the entered data in local storage and user can specify the completed tasks which will be striked out and delete operation can also be performed.
+A responsive web app for all types of devices to chat with other people. Users can perform edit and delete operation on already sent messages and the changes will reflect in real time.
 
-<a href="https://github.com/kabilansakthivelu/tasks-tracker" target="_blank">Github</a>&nbsp; &nbsp;
-<a href="https://to-do-tasks-tracker.netlify.app/" target="_blank">Netlify</a>
+<a href="https://github.com/kabilansakthivelu/chat-app" target="_blank">Source Code</a>&nbsp; &nbsp;
+<a href="https://react-chatapp-v1.netlify.app/" target="_blank">Live Demo</a>

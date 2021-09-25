@@ -1,10 +1,9 @@
 ---
 category: 'project'
-projectTitle: 'Twitter clone'
+projectTitle: 'Splitwise clone'
 ---
 
-A clone of Twitter home page. This is a responsive
-site built using Tailwind CSS framework.
+A Splitwise calculator which will collects and stores the entered data in local storage and displays the amount to be shared equally among the individuals.
 
-<a href="https://github.com/kabilansakthivelu/twitter-clone" target="_blank">Github</a>&nbsp; &nbsp;
-<a href="https://react-twitter-clone-v1.netlify.app/" target="_blank">Netlify</a>
+<a href="https://github.com/kabilansakthivelu/splitwise-clone" target="_blank">Source Code</a>&nbsp; &nbsp;
+<a href="https://splitwise-clone-react.netlify.app/" target="_blank">Live Demo</a>

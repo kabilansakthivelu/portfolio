@@ -1,9 +1,9 @@
 ---
 category: 'project'
-projectTitle: 'Splitwise clone'
+projectTitle: 'Tasks tracker'
 ---
 
-A Splitwise calculator which will collects and stores the entered data in local storage and displays the amount to be shared equally among the individuals.
+A To-Do Tasks Tracker which stores the entered data in local storage and user can specify the completed tasks which will be striked out and delete operation can also be performed.
 
-<a href="https://github.com/kabilansakthivelu/splitwise-clone" target="_blank">Github</a>&nbsp; &nbsp;
-<a href="https://splitwise-clone-react.netlify.app/" target="_blank">Netlify</a>
+<a href="https://github.com/kabilansakthivelu/tasks-tracker" target="_blank">Source Code</a>&nbsp; &nbsp;
+<a href="https://to-do-tasks-tracker.netlify.app/" target="_blank">Live Demo</a>
