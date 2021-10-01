@@ -1,9 +1,9 @@
 ---
 category: 'project'
-projectTitle: 'Netflix clone'
+projectTitle: 'Tasks tracker'
 ---
 
-This is a Netflix clone where details about the movies were fetched from APIs and when user selects a movie, a modal will be opened displaying more details on the movie selected.
+A To-Do Tasks Tracker which stores the entered data in local storage and user can specify the completed tasks which will be striked out and delete operation can also be performed.
 
-<a href="https://github.com/kabilansakthivelu/react-netflix-clone" target="_blank">Source Code</a>&nbsp; &nbsp;
-<a href="https://netflix-clone-react-v1.netlify.app/" target="_blank">Live Demo</a>
+<a href="https://github.com/kabilansakthivelu/tasks-tracker" target="_blank">Source Code</a>&nbsp; &nbsp;
+<a href="https://to-do-tasks-tracker.netlify.app/" target="_blank">Live Demo</a>

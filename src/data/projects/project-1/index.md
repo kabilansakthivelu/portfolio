@@ -1,9 +1,9 @@
 ---
 category: 'project'
-projectTitle: 'Food Dunzo'
+projectTitle: 'Netflix clone'
 ---
 
-An online food ordering web app where features such as adding/removing food items to/from cart and bills section are available. If user add food items to cart and logged out, the cart items are retained and not cleared, making it easier for user to place order in their next login.
+This is a Netflix clone where details about the movies were fetched from APIs and when user selects a movie, a modal will be opened displaying more details on the movie selected.
 
-<a href="https://github.com/kabilansakthivelu/food-order-app" target="_blank">Source Code</a>&nbsp; &nbsp;
-<a href="https://food-dunzo.netlify.app/" target="_blank">Live Demo</a>
+<a href="https://github.com/kabilansakthivelu/react-netflix-clone" target="_blank">Source Code</a>&nbsp; &nbsp;
+<a href="https://netflix-clone-react-v1.netlify.app/" target="_blank">Live Demo</a>

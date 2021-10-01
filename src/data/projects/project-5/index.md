@@ -1,9 +1,9 @@
 ---
 category: 'project'
-projectTitle: 'Digital Wallet Tracker'
+projectTitle: 'Food Dunzo'
 ---
 
-Will provide an overview on user's wallet balance. User can not only add a new transaction but also can edit and delete already added transactions. The credit and debit transactions are differentiated by green and red background color respectively.
+An online food ordering web app where features such as adding/removing food items to/from cart and bills section are available. If user add food items to cart and logged out, the cart items are retained and not cleared for next login.
 
-<a href="https://github.com/kabilansakthivelu/digital-wallet-tracker" target="_blank">Source Code</a>&nbsp; &nbsp;
-<a href="https://digital-wallet-tracker.netlify.app/" target="_blank">Live Demo</a>
+<a href="https://github.com/kabilansakthivelu/food-order-app" target="_blank">Source Code</a>&nbsp; &nbsp;
+<a href="https://food-dunzo.netlify.app/" target="_blank">Live Demo</a>
