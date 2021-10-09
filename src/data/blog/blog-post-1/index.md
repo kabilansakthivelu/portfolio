@@ -36,6 +36,8 @@ It comes with default mobile-first approach. But with the help of utility classe
 
 Since using utility classes for styling, it is almost like inline styling rather than writing normal CSS with selector, property and value.  This saves time and increases productivity.
 
+**Ways of implementing in code:**
+
 If we don't want to mess up our markup, we can extend all the utility classes through a single CSS sheet in src folder by the help of directives.
 
 <strong>Example :</strong> Consider an h1 element with a class name "testHeader"
@@ -60,7 +62,11 @@ We can introduce hover state functionalties also.
 <br/>
 <br/>
 <br/>
-<em>Writing in progress....Please check later.</em>
 
+Since we already discussed like this is highly customizable, its not just limited to using the pre-defined style components. Once we install Tailwind CSS, **tailwind.config.js** file will be created in the project's root directory.
 
+Thereby we can customize the styles including breakpoints which makes the site looks unique.
 
+For installation, kindly refer to the original docs https://tailwindcss.com/docs/installation
+
+Please write your valuable comments / suggestions to [kabilansakthi97@gmail.com](kabilansakthi97@gmail.com)
