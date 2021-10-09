@@ -28,6 +28,14 @@ Here in the utility classes,
 <li>rounded => border-radius: 0.25rem;</li>
 <br/>
 
+**Why is it so special ?**
+
+It is highly flexible and customizable when compared to other CSS frameworks which makes the sites styling looks unique whereby not making 2 sites looking almost similar.
+
+It comes with default mobile-first approach. But with the help of utility classes, complex responsive layouts can be built easily by applying breakpoints.
+
+Since using utility classes for styling, it is almost like inline styling rather than writing normal CSS with selector, property and value.  This saves time and increases productivity.
+
 If we don't want to mess up our markup, we can extend all the utility classes through a single CSS sheet in src folder by the help of directives.
 
 <strong>Example :</strong> Consider an h1 element with a class name "testHeader"
