@@ -6,11 +6,17 @@ date: '2021-08-28'
 tags: ['CSS Framework']
 published: true
 ---
+
+**What is Tailwind CSS ?**
+
 A CSS framework which eliminates the need of CSS in our code by implementing all the styles through utility classes in markup.
 
-<br/>
+**Example:**
+
 <img src="image_1.png">
 <br/>
+
+**Output:**
 
 Here in the utility classes,
 
