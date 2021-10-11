@@ -97,7 +97,7 @@ ${...}
 
 <br/>
 
-<img src="image_13.png" width="30px">
+<img src="image_13.png" width="10px">
 
 <br/>
 
@@ -113,9 +113,15 @@ ${...}
 
 <br/>
 
-<img src="image_15.png" width="40px">
+<img src="image_15.png" width="10px">
 
 <br/>
+
+Thus template literals helps us work in a cool manner when dealing with multiline strings and provides the useful concept of string interpolation.
+
+<br/>
+
+Please write your valuable comments / suggestions to <a href="mailto:kabilansakthi97@gmail.com">kabilansakthi97@gmail.com</a>
 
 
 
