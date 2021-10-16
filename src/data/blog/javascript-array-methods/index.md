@@ -29,9 +29,11 @@ Lets use the following data as example through out the blog.
 
 <br/>
 
+<br/>
+
 **Map:**
 
-Map method returns a new array after completing the iteration from the original array.
+Map method returns a new array after completing the iteration in the original array.
 
 It completely uses the original array for making the new one, so length of the new array will be the same as the original one.
 
@@ -49,11 +51,13 @@ It completely uses the original array for making the new one, so length of the n
 
 <br/>
 
-['Andrew', 'Bob', 'Kelly']
+**['Andrew', 'Bob', 'Kelly']**
 
 <br/>
 
-Here "student" denotes the current iteration in the original array. It can be named anything. For example: item, value, test ...
+<br/>
+
+Here "student" in code denotes the current iteration in the original array. It can be named anything. For example: item, value, test ...
 
 Using map method, the iterated values can be easily displayed on the web pages by wrapping it in HTML.
 
@@ -79,7 +83,7 @@ Using map method, the iterated values can be easily displayed on the web pages b
 
 Filter returns a new array only if the condition provided on the return statement is true.
 
-Since it is returning based on the condition, unlike "Map" method, the new array size won't be the same as the originl one.
+Since it returns based on the condition, unlike "Map" method, the new array size won't be the same as the originl one.
 
 <br/>
 
@@ -99,6 +103,8 @@ Since it is returning based on the condition, unlike "Map" method, the new array
 
 <br/>
 
+<br/>
+
 If there are no matches for the provided condition in return statement, filter method will return empty array.
 
 <br/>
@@ -115,7 +121,9 @@ If there are no matches for the provided condition in return statement, filter m
 
 <br/>
 
-[]
+**[ ]**
+
+<br/>
 
 <br/>
 
@@ -141,7 +149,7 @@ But if there are multiple matches for the provided condition, Find method will r
 
 <br/>
 
-{name: "Andrew", total: 475, rank: 1}
+**{name: "Andrew", total: 475, rank: 1}**
 
 <br/>
 
@@ -161,12 +169,18 @@ If there are no matches for the provided condition, then Find method will return
 
 <br/>
 
-undefined
+**undefined**
 
 <br/>
 
 Find method will be the best if we want to get a single result from an array of unique values.
 
+<br/>
+
+<br/>
+
 Thus JavaScript made our task easier and simpler for iterating over array and to get the desired output with the help of above discussed array methods.
+
+<br/>
 
 Please write your valuable comments / suggestions to <a href="mailto:kabilansakthi97@gmail.com">kabilansakthi97@gmail.com</a>
