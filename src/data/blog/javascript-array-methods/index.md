@@ -1,7 +1,7 @@
 ---
 category: 'blog'
 title: 'Javascript - Array methods'
-description: 'A brief overview on HTML semantic elements.'
+description: 'An overview on Map, Filter and Find methods in array of JavaScript'
 date: '2021-10-15'
 tags: ['JavaScript']
 published: true
