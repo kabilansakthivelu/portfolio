@@ -29,17 +29,45 @@ Map method returns a new array after completing the iteration from the original 
 
 It completely uses the original array for making the new one, so length of the new array will be the same as the original one.
 
+<br/>
+
 **Example:**
 
+<br/>
+
+
+
+<br/>
+
 **Output:**
+
+<br/>
+
+
+
+<br/>
 
 Here "student" denotes the current iteration in the original array. It can be named anything. For example: item, value, test ...
 
 Using map method, the iterated values can be easily displayed on the web pages by wrapping it in HTML.
 
+<br/>
+
 **Example:**
 
+<br/>
+
+
+
+<br/>
+
 **Output:**
+
+<br/>
+
+
+
+<br/>
 
 **Filter:**
 
@@ -47,15 +75,43 @@ Filter returns a new array only if the condition provided on the return statemen
 
 Since it is returning based on the condition, unlike "Map" method, the new array size won't be the same as the originl one.
 
+<br/>
+
 **Example:**
 
+<br/>
+
+
+
+<br/>
+
 **Output:**
+
+<br/>
+
+
+
+<br/>
 
 If there are no matches for the provided condition in return statement, filter method will return empty array.
 
+<br/>
+
 **Example:**
 
+<br/>
+
+
+
+<br/>
+
 **Output:**
+
+<br/>
+
+
+
+<br/>
 
 **Find:**
 
@@ -65,15 +121,46 @@ It will return the result only if the condition provided on the return statement
 
 But if there are multiple matches for the provided condition, Find method will return the first match.
 
+<br/>
+
 **Example:**
 
+<br/>
+
+
+
+<br/>
+
 **Output:**
+
+<br/>
+
+
+
+<br/>
 
 If there are no matches for the provided condition, then Find method will return **"undefined"** as value.
 
+<br/>
+
 **Example:**
+
+<br/>
+
+
+
+<br/>
 
 **Output:**
 
+<br/>
+
+
+
+<br/>
+
 Find method will be the best if we want to get a single result from an array of unique values.
 
+Thus JavaScript made our task easier and simpler for iterating over array and to get the desired output with the help of above discussed array methods.
+
+Please write your valuable comments / suggestions to <a href="mailto:kabilansakthi97@gmail.com">kabilansakthi97@gmail.com</a>
