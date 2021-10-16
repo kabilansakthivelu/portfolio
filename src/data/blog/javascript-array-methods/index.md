@@ -23,6 +23,12 @@ JavaScript provides us many useful methods to iterate over array and to return t
 
 Lets use the following data as example through out the blog.
 
+<br/>
+
+<img src="./image_20.png">
+
+<br/>
+
 **Map:**
 
 Map method returns a new array after completing the iteration from the original array.
@@ -35,7 +41,7 @@ It completely uses the original array for making the new one, so length of the n
 
 <br/>
 
-
+<img src="./image_21.png">
 
 <br/>
 
@@ -43,7 +49,7 @@ It completely uses the original array for making the new one, so length of the n
 
 <br/>
 
-
+['Andrew', 'Bob', 'Kelly']
 
 <br/>
 
@@ -57,7 +63,7 @@ Using map method, the iterated values can be easily displayed on the web pages b
 
 <br/>
 
-
+<img src="./image_22.png">
 
 <br/>
 
@@ -65,7 +71,7 @@ Using map method, the iterated values can be easily displayed on the web pages b
 
 <br/>
 
-
+<img src="./image_23.png">
 
 <br/>
 
@@ -81,7 +87,7 @@ Since it is returning based on the condition, unlike "Map" method, the new array
 
 <br/>
 
-
+<img src="./image_24.png">
 
 <br/>
 
@@ -89,7 +95,7 @@ Since it is returning based on the condition, unlike "Map" method, the new array
 
 <br/>
 
-
+<img src="./image_25.png">
 
 <br/>
 
@@ -101,7 +107,7 @@ If there are no matches for the provided condition in return statement, filter m
 
 <br/>
 
-
+<img src="./image_28.png">
 
 <br/>
 
@@ -109,7 +115,7 @@ If there are no matches for the provided condition in return statement, filter m
 
 <br/>
 
-
+[]
 
 <br/>
 
@@ -127,7 +133,7 @@ But if there are multiple matches for the provided condition, Find method will r
 
 <br/>
 
-
+<img src="./image_26.png">
 
 <br/>
 
@@ -135,7 +141,7 @@ But if there are multiple matches for the provided condition, Find method will r
 
 <br/>
 
-
+{name: "Andrew", total: 475, rank: 1}
 
 <br/>
 
@@ -147,7 +153,7 @@ If there are no matches for the provided condition, then Find method will return
 
 <br/>
 
-
+<img src="./image_27.png">
 
 <br/>
 
@@ -155,7 +161,7 @@ If there are no matches for the provided condition, then Find method will return
 
 <br/>
 
-
+undefined
 
 <br/>
 
