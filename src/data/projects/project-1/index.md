@@ -1,9 +1,9 @@
 ---
 category: 'project'
-projectTitle: 'Tasks tracker'
+projectTitle: 'Task Planner'
 ---
 
-A To-Do Tasks Tracker which stores the entered data in local storage and user can specify the completed tasks which will be striked out and delete operation can also be performed.
+A responsive task planner web app with Dashboard setup for easy classification of tasks. The task cards are clickable and users can update and delete the tasks created. Search functionality and chart for overall progress are implemented.
 
-<a href="https://github.com/kabilansakthivelu/tasks-tracker" target="_blank">Source Code</a>&nbsp; &nbsp;
-<a href="https://to-do-tasks-tracker.netlify.app/" target="_blank">Live Demo</a>
+<a href="https://github.com/kabilansakthivelu/dashboard-app" target="_blank">Source Code</a>&nbsp; &nbsp;
+<a href="https://task-planner-v1.netlify.app/" target="_blank">Live Demo</a>
