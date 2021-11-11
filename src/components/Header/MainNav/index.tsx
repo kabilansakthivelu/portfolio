@@ -17,7 +17,7 @@ const mainNavItems: MainNavItem[] = [
     slug: '/projects/'
   },
   {
-    title: 'Blog',
+    title: 'Blogs',
     slug: '/blog/'
   },
   {

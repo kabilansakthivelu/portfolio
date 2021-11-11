@@ -1,9 +1,9 @@
 ---
 category: 'project'
-projectTitle: 'Task Planner'
+projectTitle: 'Digital Wallet Tracker'
 ---
 
-A responsive task planner web app with Dashboard setup for easy classification of tasks. The task cards are clickable and users can update and delete the tasks created. Search functionality and chart for overall progress are implemented.
+Will provide an overview on user's wallet balance. User can not only add a new transaction but also can edit and delete already added transactions. The credit and debit transactions are differentiated by green and red background color respectively.
 
-<a href="https://github.com/kabilansakthivelu/dashboard-app" target="_blank">Source Code</a>&nbsp; &nbsp;
-<a href="https://task-planner-v1.netlify.app/" target="_blank">Live Demo</a>
+<a href="https://github.com/kabilansakthivelu/digital-wallet-tracker" target="_blank">Source Code</a>&nbsp; &nbsp;
+<a href="https://digital-wallet-tracker.netlify.app/" target="_blank">Live Demo</a>

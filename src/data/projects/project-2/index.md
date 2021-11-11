@@ -1,9 +1,9 @@
 ---
 category: 'project'
-projectTitle: 'Music World'
+projectTitle: 'Chat App'
 ---
 
-A responsive music player web app which plays songs seamlessly. Users can skip or move to a particular portion of the playing track by clicking on the progress bar and can mark their favorite songs. Also search functionality is implemented.
+A responsive web app for all types of devices to chat with other people. Users can perform edit and delete operation on already sent messages and the changes will reflect in real time.
 
-<a href="https://github.com/kabilansakthivelu/media-player-app" target="_blank">Source Code</a>&nbsp; &nbsp;
-<a href="https://music-world-v1.netlify.app/" target="_blank">Live Demo</a>
+<a href="https://github.com/kabilansakthivelu/chat-app" target="_blank">Source Code</a>&nbsp; &nbsp;
+<a href="https://react-chatapp-v1.netlify.app/" target="_blank">Live Demo</a>

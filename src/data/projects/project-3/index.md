@@ -1,9 +1,9 @@
 ---
 category: 'project'
-projectTitle: 'Digital Wallet Tracker'
+projectTitle: 'Music World'
 ---
 
-Will provide an overview on user's wallet balance. User can not only add a new transaction but also can edit and delete already added transactions. The credit and debit transactions are differentiated by green and red background color respectively.
+A responsive music player web app which plays songs seamlessly. Users can skip or move to a particular portion of the playing track by clicking on the progress bar and can mark their favorite songs. Also search functionality is implemented.
 
-<a href="https://github.com/kabilansakthivelu/digital-wallet-tracker" target="_blank">Source Code</a>&nbsp; &nbsp;
-<a href="https://digital-wallet-tracker.netlify.app/" target="_blank">Live Demo</a>
+<a href="https://github.com/kabilansakthivelu/media-player-app" target="_blank">Source Code</a>&nbsp; &nbsp;
+<a href="https://music-world-v1.netlify.app/" target="_blank">Live Demo</a>
